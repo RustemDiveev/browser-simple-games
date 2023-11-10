@@ -1,9 +1,5 @@
-const App = () => {
-    return (
-        <div>
-            {"Я кринжуля тутуруруру"}
-        </div>
-    );
-}
+import AppContainer from "./components/AppContainer";
+
+const App = () => <AppContainer/>
 
 export default App;
